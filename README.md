@@ -18,7 +18,8 @@
 + filtering
 + dropobjectItem
 + getUrlParam
-现在还没有使用任何参数类型检查工具,之前会加上 
+
+现在还没有使用任何参数类型检查工具,之前会加上
 
 ## rollup打包 类似webpack
  rollup就是专门用来打包library的,而webpack大多是用来打包应用程序的.
