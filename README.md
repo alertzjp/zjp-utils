@@ -6,7 +6,23 @@
    3. npm run build 打包
    4. import zjputils  from 'zjp-utils' 引用
 
-## rollup打包 类型webpack
+目前的js库的方法有:
++ isPhoneNum
++ savesessionStorage
++ getsessionStorage
++ removesessionItem
++ savelocalStorage
++ getlocalStorage
++ removelocalItem
++ gettime
++ filtering
++ dropobjectItem
++ getUrlParam
+现在还没有使用任何参数类型检查工具,之前会加上 
+
+## rollup打包 类似webpack
+ rollup就是专门用来打包library的,而webpack大多是用来打包应用程序的.
+ roll -c  执行 rollup.config.js
  ```
       import { terser } from 'rollup-plugin-terser'
       import babel from 'rollup-plugin-babel'
