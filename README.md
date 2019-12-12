@@ -7,8 +7,7 @@
    4. import zjputils  from 'zjp-utils' 引用
 
 ## rollup打包 类型webpack
-
- (```)
+ ```
       import { terser } from 'rollup-plugin-terser'
       import babel from 'rollup-plugin-babel'
       export default {
@@ -25,7 +24,7 @@
                terser()
            ]
        };
- (```)
+ ```
 
   1. rollup-plugin-terser  压缩代码插件
   2. rollup-plugin-babel  将代码中es6+ 转成浏览器能执行的
