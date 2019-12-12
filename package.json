@@ -1,0 +1,36 @@
+{
+  "name": "zjp-utils",
+  "version": "1.0.8",
+  "description": "A private JS tool library",
+  "main": "dist/zjp-utils.js",
+  "module": "dist/zjp-utils.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alertzjp/zjp-utils.git"
+  },
+  "keywords": [],
+  "author": "zjp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alertzjp/zjp-utils/issues"
+  },
+  "homepage": "https://github.com/alertzjp/zjp-utils#readme",
+  "devDependencies": {
+    "rollup-plugin-terser": "^5.1.2",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.5.0",
+    "rollup-plugin-babel": "^3.0.7"
+  }
+}
