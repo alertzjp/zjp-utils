@@ -1,6 +1,6 @@
 {
   "name": "zjp-utils",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "A private JS tool library",
   "main": "dist/zjp-utils.js",
   "module": "dist/zjp-utils.esm.js",
