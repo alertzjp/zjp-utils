@@ -7,17 +7,17 @@
    4. import zjputils  from 'zjp-utils' 引用
 
 目前的js库的方法有:
-+ isPhoneNum
-+ savesessionStorage
-+ getsessionStorage
-+ removesessionItem
-+ savelocalStorage
-+ getlocalStorage
-+ removelocalItem
-+ gettime
-+ filtering
-+ dropobjectItem
-+ getUrlParam
+  + isPhoneNum
+  + savesessionStorage
+  + getsessionStorage
+  + removesessionItem
+  + savelocalStorage
+  + getlocalStorage
+  + removelocalItem
+  + gettime
+  + filtering
+  + dropobjectItem
+  + getUrlParam
 
 现在还没有使用任何参数类型检查工具,之前会加上
 
@@ -25,22 +25,22 @@
  rollup就是专门用来打包library的,而webpack大多是用来打包应用程序的.
  roll -c  执行 rollup.config.js
  ```
-      import { terser } from 'rollup-plugin-terser'
-      import babel from 'rollup-plugin-babel'
-      export default {
-           input: './src/index.js',
-           output: {
-               file: './dist/zjp-utils.esm.js',
-               format: 'es',
-               name:'zjp-utils'
-           },
-           plugins: [
-              babel({
-                    exclude: 'node_modules/**'
-               }),
-               terser()
-           ]
-       };
+  import { terser } from 'rollup-plugin-terser'
+  import babel from 'rollup-plugin-babel'
+  export default {
+       input: './src/index.js',
+       output: {
+           file: './dist/zjp-utils.esm.js',
+           format: 'es',
+           name:'zjp-utils'
+       },
+       plugins: [
+          babel({
+                exclude: 'node_modules/**'
+           }),
+           terser()
+       ]
+   };
  ```
 
   1. rollup-plugin-terser  压缩代码插件
