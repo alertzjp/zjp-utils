@@ -1,5 +1,10 @@
 # zjp-utils 个人工具库(npm工程)
 
+## 安装和使用
+ 1.git clone 拉取代码
+ 2.npm install 安装依赖
+ 3.npm run build 打包
+ 4.import zjputils  from 'zjp-utils' 引用
 
 ### rollup打包 类型webpack
 
