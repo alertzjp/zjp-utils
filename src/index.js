@@ -66,7 +66,7 @@ let utils={
     return result
   },
   /**
-   * 清空对象中key为null或undefined
+   * 置空对象中key为null或undefined
    * @param  {Object}  data
    * @return key有值的
    */
