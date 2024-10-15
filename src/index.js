@@ -9,7 +9,7 @@ let utils={
     return /^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/.test(str)
   },
   /**
-   * 设置sessionStorage
+   * 设置sessionStorage    
    */
   savesessionStorage: function(key,vla){
     return window.sessionStorage.setItem(key, vla)
@@ -68,7 +68,7 @@ let utils={
   /**
    * 置空对象中key为null或undefined
    * @param  {Object}  data
-   * @return key有值的
+   * @return key有值
    */
   filtering:function(data) {
     var reset = {};
